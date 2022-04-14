@@ -3,5 +3,5 @@ Project I did using pgAdmin, Flask, and Insomnia for Python backend web applicat
 
 | Endpoint Paths      | Methods | Parameters     |
 | :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| {{ _.baseURL }}/employees      | GET       | N/A   |
+| {{ _.baseURL }}/employees/{employee_id}   | Patch        | {employee_id}     |
